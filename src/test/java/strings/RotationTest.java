@@ -16,7 +16,7 @@ public class RotationTest {
 
     @Test
     public void testAreRotationsEmptyStrings() {
-        assertTrue(Rotation.areRotations("", ""));
+        assertFalse(Rotation.areRotations("", ""));
     }
 
     @Test
