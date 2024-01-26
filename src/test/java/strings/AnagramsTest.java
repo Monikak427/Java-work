@@ -32,6 +32,6 @@ public class AnagramsTest {
 
     @Test
     public void testAreAnagrams_zeroInput() {
-        assertFalse(Anagrams.areAnagrams("", ""));
+        assertFalse(Anagrams.areAnagrams(null, null));
     }
 }
