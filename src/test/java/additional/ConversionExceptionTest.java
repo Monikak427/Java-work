@@ -1,9 +1,9 @@
 package additional;
 
-import additional.ConversionException;
-
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+
+import exceptions.ConversionException;
 
 public class ConversionExceptionTest {
     

@@ -1,4 +1,4 @@
-package additional;
+package exceptions;
 
 public class ConversionException {
     
