@@ -1,5 +1,5 @@
 package exceptions;
-
+import exceptions.FileContentReader;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -22,7 +22,7 @@ class FileContentReaderTest {
         FileUtil.writeToFile(fileName, fileContent);
 
         // Create FileContentReader instance and call printFileContents
-        FileContentReader fileContentReader = new FileContentReader();
+        exceptions.FileContentReader fileContentReader = new exceptions.FileContentReader();
         fileContentReader.printFileContents(fileName);
 
         // Reset stdout

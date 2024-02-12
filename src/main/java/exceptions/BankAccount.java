@@ -19,4 +19,7 @@ public class BankAccount {
         balance -= amount;
         System.out.println("Withdrawal successful. Current balance: " + balance);
     }
+    public double getBalance() {
+        return balance;
+    }
 }
